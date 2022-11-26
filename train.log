@@ -1,0 +1,14 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:root:Epoch 0 loss: 0.040257766047793936 eval acc: 0.9176470588235294
+DEBUG:root:Epoch 1 loss: 0.025063727445205373 eval acc: 0.9183823529411764
+DEBUG:root:Epoch 2 loss: 0.019194087728015695 eval acc: 0.919485294117647
+DEBUG:root:Epoch 3 loss: 0.013868254215049091 eval acc: 0.9161764705882353
+DEBUG:root:Epoch 4 loss: 0.012117148123712361 eval acc: 0.9205882352941176
+DEBUG:root:Epoch 5 loss: 0.00870625895622652 eval acc: 0.919485294117647
+DEBUG:root:Epoch 6 loss: 0.007640813610487384 eval acc: 0.9183823529411764
+DEBUG:root:Epoch 7 loss: 0.008304051556350554 eval acc: 0.9147058823529411
+DEBUG:root:Epoch 8 loss: 0.00649479750326838 eval acc: 0.9172794117647058
+DEBUG:root:Epoch 9 loss: 0.00610683550916934 eval acc: 0.9180147058823529
