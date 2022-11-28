@@ -20,3 +20,6 @@ class Model(nn.Module):
     
     def get_loss(self, logits, labels):
         return self.loss_fn(logits.view(-1, self.num_labels), labels.view(-1))
+    
+    def predict(self, logits):
+        return torch.argmax(logits, dim=1)

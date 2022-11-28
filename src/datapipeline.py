@@ -29,4 +29,9 @@ class CCPMDataset(Dataset):
 
     def __getitem__(self, idx):
         data = self.data[idx]
-        return (data['translation'], data['choices'], data['answer'])
+        if self.mode == 'train' or self.mode == 'valid':
+            return data['translation'], data['choices'], data['answer']
+        elif self.mode == 'test':
+            return data['translation'], data['choices']
+        else:
+            raise ValueError('mode should be train/valid/test')
