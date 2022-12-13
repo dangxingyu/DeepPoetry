@@ -1,0 +1,34 @@
+INFO:root:Namespace(batch_size=32, n_epochs=10, lr=1e-05, device='cuda', model_name='hfl/chinese-roberta-wwm-ext-large', add_prompts=False, train_path='CCPM/train.jsonl', valid_path='CCPM/valid.jsonl', checkpoint='best_model_retriever.pt')
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+INFO:root:Namespace(batch_size=32, n_epochs=20, lr=1e-05, device='cuda', model_name='hfl/chinese-roberta-wwm-ext-large', add_prompts=False, train_path='CCPM/train.jsonl', valid_path='CCPM/valid.jsonl', checkpoint='best_model_retriever.pt')
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:root:Initial eval acc: 0.8261029411764705
+DEBUG:root:Epoch 0 loss: 0.08352020048700712 eval acc: 0.8231617647058823
+DEBUG:root:Epoch 1 loss: 0.07231344070066424 eval acc: 0.8132352941176471
+DEBUG:root:Epoch 2 loss: 0.06244824960937395 eval acc: 0.7904411764705882
+DEBUG:root:Epoch 3 loss: 0.054106574516524286 eval acc: 0.7830882352941176
+DEBUG:root:Epoch 4 loss: 0.04708585906773806 eval acc: 0.7727941176470589
+DEBUG:root:Epoch 5 loss: 0.041418766000253314 eval acc: 0.756985294117647
+DEBUG:root:Epoch 6 loss: 0.036924829166930385 eval acc: 0.7422794117647059
+DEBUG:root:Epoch 7 loss: 0.03324311528738369 eval acc: 0.7330882352941176
+DEBUG:root:Epoch 8 loss: 0.030308159046313343 eval acc: 0.731985294117647
+DEBUG:root:Epoch 9 loss: 0.027888335257439927 eval acc: 0.7172794117647059
+DEBUG:root:Epoch 10 loss: 0.025772586325183512 eval acc: 0.7125
+DEBUG:root:Epoch 11 loss: 0.02421226304517511 eval acc: 0.7066176470588236
+DEBUG:root:Epoch 12 loss: 0.02279137328869718 eval acc: 0.7051470588235295
+DEBUG:root:Epoch 13 loss: 0.02154277885634014 eval acc: 0.705514705882353
+DEBUG:root:Epoch 14 loss: 0.0205534336691284 eval acc: 0.6974264705882353
+DEBUG:root:Epoch 15 loss: 0.01972293478491552 eval acc: 0.6970588235294117
+DEBUG:root:Epoch 16 loss: 0.018845198315787404 eval acc: 0.694485294117647
+DEBUG:root:Epoch 17 loss: 0.01818873655215344 eval acc: 0.7003676470588235
+DEBUG:root:Epoch 18 loss: 0.017519869273254537 eval acc: 0.6941176470588235
+DEBUG:root:Epoch 19 loss: 0.017187281329568257 eval acc: 0.6904411764705882
+INFO:root:Namespace(batch_size=32, n_epochs=20, lr=1e-05, device='cuda', model_name='hfl/chinese-roberta-wwm-ext-large', add_prompts=False, train_path='CCPM/train.jsonl', valid_path='CCPM/valid.jsonl', checkpoint='best_model_large.pt')
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/config.json HTTP/1.1" 200 0

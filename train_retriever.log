@@ -1,0 +1,27 @@
+DEBUG:root:Initial eval acc: 0.8261029411764705
+INFO:root:Namespace(batch_size=32, n_epochs=10, lr=2e-06, device='cuda', model_name='hfl/chinese-roberta-wwm-ext-large', add_prompts=False, train_path='CCPM/train.jsonl', valid_path='CCPM/valid.jsonl', checkpoint='best_model_retriever.pt')
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:root:Initial eval acc: 0.8261029411764705
+INFO:root:Namespace(batch_size=32, n_epochs=10, lr=1e-05, device='cuda', model_name='hfl/chinese-roberta-wwm-ext-large', add_prompts=False, train_path='CCPM/train.jsonl', valid_path='CCPM/valid.jsonl', checkpoint='best_model_retriever.pt')
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+INFO:root:Namespace(batch_size=32, n_epochs=10, lr=1e-05, device='cuda', model_name='hfl/chinese-roberta-wwm-ext-large', add_prompts=False, train_path='CCPM/train.jsonl', valid_path='CCPM/valid.jsonl', checkpoint='best_model_retriever.pt')
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /hfl/chinese-roberta-wwm-ext-large/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:root:Epoch 0 loss: 0.7442033325924593 eval acc: 0.8246323529411764
+DEBUG:root:Epoch 1 loss: 0.7329535509733592 eval acc: 0.8227941176470588
+DEBUG:root:Epoch 2 loss: 0.37046833634376525 eval acc: 0.8036764705882353
+DEBUG:root:Epoch 3 loss: 0.1898027532898328 eval acc: 0.8125
+DEBUG:root:Epoch 4 loss: 0.16206402128343197 eval acc: 0.81875
+DEBUG:root:Epoch 5 loss: 0.14619957625537233 eval acc: 0.8154411764705882
+DEBUG:root:Epoch 6 loss: 0.13351269369287527 eval acc: 0.8169117647058823
+DEBUG:root:Epoch 7 loss: 0.121636715186212 eval acc: 0.8191176470588235
+DEBUG:root:Epoch 8 loss: 0.11285573560196688 eval acc: 0.819485294117647
+DEBUG:root:Epoch 9 loss: 0.10606021415990065 eval acc: 0.8191176470588235

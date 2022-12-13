@@ -35,3 +35,27 @@ class CCPMDataset(Dataset):
             return data['translation'], data['choices']
         else:
             raise ValueError('mode should be train/valid/test')
+
+class CCPMContrastiveDataset(Dataset):
+    def __init__(self, path, mode='train', add_prompts = False, prev_dataset: CCPMDataset=None):
+        self.path = path
+        self.mode = mode
+        self.data = self.load_from_dataset(prev_dataset)
+
+    def load_from_dataset(self, prev_dataset: CCPMDataset):
+        data = []
+        for data_line in prev_dataset.data:
+            translation = data_line['translation']
+            choices = data_line['choices']
+            answer = data_line['answer']
+            for i in range(len(choices)):
+                if i == answer:
+                    data.append((translation, choices[i], 1))
+                else:
+                    data.append((translation, choices[i], -1))
+        return data
+
+class SearchDataset(Dataset):
+    def __init__(self, path):
+        self.path = path
+        self.data = self.load_data()
